@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithJwt.API", "WithJwt.API\WithJwt.API.csproj", "{E6F0BB24-C869-41D9-9D9B-1C5D50212CA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithJwt.Core", "WithJwt.Core\WithJwt.Core.csproj", "{48C235AD-6840-4A7D-8D27-8CC526156243}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithJwt.Repository", "WithJwt.Repository\WithJwt.Repository.csproj", "{B45B1047-1A45-492C-94A2-60FA23B3CDAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithJwt.Service", "WithJwt.Service\WithJwt.Service.csproj", "{C062B6A8-DAC4-4561-BE13-80795D599085}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{7F148654-E634-45C8-A7B4-549DAE177DE5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C0A972BA-00A5-4EC2-97AA-363303403E0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6F0BB24-C869-41D9-9D9B-1C5D50212CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F0BB24-C869-41D9-9D9B-1C5D50212CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F0BB24-C869-41D9-9D9B-1C5D50212CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F0BB24-C869-41D9-9D9B-1C5D50212CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C235AD-6840-4A7D-8D27-8CC526156243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C235AD-6840-4A7D-8D27-8CC526156243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C235AD-6840-4A7D-8D27-8CC526156243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C235AD-6840-4A7D-8D27-8CC526156243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45B1047-1A45-492C-94A2-60FA23B3CDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45B1047-1A45-492C-94A2-60FA23B3CDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45B1047-1A45-492C-94A2-60FA23B3CDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45B1047-1A45-492C-94A2-60FA23B3CDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C062B6A8-DAC4-4561-BE13-80795D599085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C062B6A8-DAC4-4561-BE13-80795D599085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C062B6A8-DAC4-4561-BE13-80795D599085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C062B6A8-DAC4-4561-BE13-80795D599085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F148654-E634-45C8-A7B4-549DAE177DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F148654-E634-45C8-A7B4-549DAE177DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F148654-E634-45C8-A7B4-549DAE177DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F148654-E634-45C8-A7B4-549DAE177DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A972BA-00A5-4EC2-97AA-363303403E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A972BA-00A5-4EC2-97AA-363303403E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A972BA-00A5-4EC2-97AA-363303403E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A972BA-00A5-4EC2-97AA-363303403E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08E9AEDC-9670-46CA-8BB8-C8F7BDCF7B9A}
+	EndGlobalSection
+EndGlobal
